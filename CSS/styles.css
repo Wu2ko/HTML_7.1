@@ -1,0 +1,73 @@
+*{
+color: white;
+margin: 2px;
+min-height: 50px;
+text-align:center;
+}
+h2{
+	font-size: 25px;
+}
+body{
+	width: 60%;
+	margin: 10px auto;
+}	
+
+header{
+	display: flex;
+	background-color: #55d6ec;
+	justify-content: center;
+	align-items: center;
+}
+main{
+		display: flex;			
+}
+.herobar{
+	display: flex;
+	flex-direction: column;
+	min-width: 30%;
+	flex-grow: 1
+}
+.hero{
+	background-color: #d7c9e3;
+	flex-grow: 1
+}
+.sidebar{
+	background-color: #9fc363;
+	flex-grow: 1
+}
+.contentbar{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1
+}
+.content{
+	background-color: #f6c733;
+	min-height: 350px;
+	justify-content: end;
+	
+}
+.extra{
+	background-color: #898989;
+	min-height: 100px;
+}
+.relatable{
+	display: flex;
+	min-height: 100px;
+
+}
+.images{
+	background-color: #2bb673;
+	flex-grow: 3;
+}
+.posts{
+	background-color: #f3ccdf;
+	min-width: 30%;
+	
+	
+}
+footer{
+	display: flex;
+	background-color: #fea501;
+	justify-content: center;
+	align-items: center;
+}
